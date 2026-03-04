@@ -1,10 +1,10 @@
 services:
   angular-app:
-    image: YOUR_DOCKERHUB_USERNAME/angular-frontend:latest
+    image: bahabmehrez/angular-frontend:latest
     ports:
       - "0.0.0.0:4200:80"      
   spring-boot-app:
-    image: YOUR_DOCKERHUB_USERNAME/springboot-backend:latest
+    image: bahabmehrez/springboot-backend:latest
     ports:
       - "0.0.0.0:8081:8081"
     environment:
